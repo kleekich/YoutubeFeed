@@ -15,7 +15,5 @@ const App = function() {
 
 
 //This this compnent's generated and put it on the page(in the DOM)
-ReactDom.render(ReactApp);
-
-
+ReactDom.render(<App/>, document.querySelector('.container'));
 
