@@ -7,11 +7,20 @@ class SearchBar extends Component {
 	//For State
 	constructor(props){
 		super(props);
+		//This is only time we manually set our state.
 		this.state = {term:''};
 	}
 	
 	render() {
-		return <input onChange={(event) => this.setState({ term: event.target.value })} />;
+		return (
+			<div>
+				<input //controlled component.
+					value={this.state.term}
+					//setState calls render() funciton everytime it has change
+					onChange={(event) => this.setState({ term: event.target.value  })} />
+			</div>
+
+		);
 	}
 
 	/* without ES6
