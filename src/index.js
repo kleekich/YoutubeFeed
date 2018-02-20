@@ -11,10 +11,13 @@ const API_KEY = 'AIzaSyAh2klEtZe45QYuzOwlWUN4UVzPNxpMqOc';
 // Create a new component. This component should produce some HTML
 //const for final variable(ES6 syntax)
 const App = () => {
-
 	//return JSX
-	return <div>Hi!</div>;
-}
+	return (
+		<div>
+			<SearchBar />
+		</div>
+	);
+};
 
 
 //This this compnent's generated and put it on the page(in the DOM)
