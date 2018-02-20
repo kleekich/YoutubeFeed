@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDom from 'react-dom';
-
+import SearchBar from './components/search_bar'
 
 
 
