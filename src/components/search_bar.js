@@ -1,11 +1,12 @@
-import React from 'react';
+import React, {Component} from 'react';
+
 
 
 //ES6 class components
-
-class SearchBar extends React.Component {
-
-
+class SearchBar extends Component {
+	render() {
+		return <input />;
+	}
 }
 
 
