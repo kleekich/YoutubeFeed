@@ -21,9 +21,12 @@ class App extends Component  {
 			selectedVideo: null
 		};
 		
-
+		//Each time we set our state, we render again.
 		YTSearch({key: API_KEY, term: 'surfboards'}, (videos) => {
-			this.setState({ videos});
+			this.setState({
+				videos: videos,
+				selectedVideo: videos[0]
+			});
 			//ES6 advanced: Same as this.setState({viedos: videos}); 
 
 		});

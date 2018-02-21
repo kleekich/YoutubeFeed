@@ -1,7 +1,7 @@
 import React from 'react';
 
 
-const VideoListItem = ({video}) => {
+const VideoListItem = ({video, onVideoSelect}) => {
 /*Same as
 const VideoListItem = (props) => {}
 	const video = props.video;
