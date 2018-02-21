@@ -13,7 +13,7 @@ class SearchBar extends Component {
 	
 	render() {
 		return (
-			<div>
+			<div className="search-bar">
 				<input //controlled component.
 					value={this.state.term}
 					//setState calls render() funciton everytime it has change
