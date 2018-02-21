@@ -21,8 +21,12 @@ class App extends Component  {
 			selectedVideo: null
 		};
 		
+		this.videoSearch('surfboards');
+		
+	}
+	videoSearch(term){
 		//Each time we set our state, we render again.
-		YTSearch({key: API_KEY, term: 'surfboards'}, (videos) => {
+		YTSearch({key: API_KEY, term: 'term'}, (videos) => {
 			this.setState({
 				videos: videos,
 				selectedVideo: videos[0]
@@ -30,12 +34,15 @@ class App extends Component  {
 			//ES6 advanced: Same as this.setState({viedos: videos}); 
 
 		});
+
 	}
+
+
 	//return JSX
 	render() {
 		return (
 			<div>
-				<SearchBar />
+				<SearchBar onSearchTermChang={term => this.videoSearch(term)} />
 				<VideoDetail video={this.state.selectedVideo} />
 				<VideoList
 				 onVideoSelect={selectedVideo => this.setState({selectedVideo})}
