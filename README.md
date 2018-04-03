@@ -15,7 +15,7 @@ This app demonstrates aspects of modern web application development such as:
 * Users can search youtube videos using any keyword.
 * If you click video on the list, it will be displayed in the detail view.
 
-   [YoutubeSearchApp](https://yelpcamp-kangsik-lee.herokuapp.com/)
+   [YoutubeFeed](https://youtubefeed-kangsik-lee.herokuapp.com/)
 
 
 ## Languages/Tools used
