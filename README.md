@@ -15,19 +15,19 @@ This app demonstrates aspects of modern web application development such as:
 * Users can search youtube videos using any keyword.
 * If you click video on the list, it will be displayed in the detail view.
 
-   [YoutubeFeed](https://youtubefeed-kangsik-lee.herokuapp.com/)
+   [YoutubeFeed](https://youtubefeed-kangsik-lee.herokuapp.com)
 
 
 ## Languages/Tools used
 
 ### Developement
-* Javascript ES6
+* ES6(Javascript)
 * [JSX](https://reactjs.org/docs/introducing-jsx.html)
 * CSS3
-* [webpackj](https://webpack.js.org/)
-* [babel](https://babeljs.io/) - transfiling JSX into Javascript
+* [webpack](https://webpack.js.org/) - Bundling 
+* [babel](https://babeljs.io/) - Transfiling JSX into Javascript
 * [youtube-search-api](https://www.npmjs.com/package/youtube-api-search) - Youtube Search API
-* [Express](https://expressjs.com/) Web application framwork
+* [ExpressJS](https://expressjs.com/) - Web application framwork
 * [Node.js](https://nodejs.org/en/) - Server-side framework
 
 
