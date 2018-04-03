@@ -27,6 +27,7 @@ This app demonstrates aspects of modern web application development such as:
 * [webpackj](https://webpack.js.org/)
 * [babel](https://babeljs.io/) - transfiling JSX into Javascript
 * [youtube-search-api](https://www.npmjs.com/package/youtube-api-search) - Youtube Search API
+* [Express](https://expressjs.com/) Web application framwork
 * [Node.js](https://nodejs.org/en/) - Server-side framework
 
 
