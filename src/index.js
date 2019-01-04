@@ -7,7 +7,11 @@ import SearchBar from './components/search_bar'
 import VideoList from './components/video_list'
 import VideoDetail from './components/video_detail'
 
+<<<<<<< HEAD
 const API_KEY = process.env.API_KEY;
+=======
+const API_KEY = env.API_KEY;
+>>>>>>> ace6cd1a0d79d229cb7963603f1f0975019f821d
 
 
 
